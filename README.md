@@ -14,10 +14,10 @@ A simple calculator made with flutter
 
 <div style="display:flex;">
 
-<img src="./screenshots/1.png" height=600/>
+<img src="./screenshot/1.png" height=400/>
 
-<img src="./screenshots/2.png" height=600/>
+<img src="./screenshot/2.png" height=400/>
 
-<img src="./screenshots/3.png" height=600/>
+<img src="./screenshot/3.png" height=400/>
 
 </div>
