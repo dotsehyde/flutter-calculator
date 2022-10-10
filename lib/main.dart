@@ -40,6 +40,7 @@ class _WrapperState extends State<Wrapper> {
     return Scaffold(
       appBar: AppBar(
         elevation: 0,
+        centerTitle: true,
         title: const Text('Calculator'),
       ),
       body: LayoutBuilder(builder: (context, size) {
@@ -58,6 +59,7 @@ class _WrapperState extends State<Wrapper> {
                   style: TextStyle(fontSize: 40),
                 ),
               ),
+                // Row 1
               Row(
                 mainAxisAlignment: MainAxisAlignment.spaceAround,
                 children: [
@@ -86,22 +88,23 @@ class _WrapperState extends State<Wrapper> {
                       mainAxisSpacing: 10,
                       crossAxisSpacing: 10),
                   children: [
-                    // Row 1
+                  //Row 2
 
                     numBtn(label: "7"),
                     numBtn(label: "8"),
                     numBtn(label: "9"),
                     operatorBtn(label: "×"),
-                    // Row 2
+                    // Row 3
                     numBtn(label: "4"),
                     numBtn(label: "5"),
                     numBtn(label: "6"),
                     operatorBtn(label: "÷"),
-                    // Row 3
+                    // Row 4
                     numBtn(label: "1"),
                     numBtn(label: "2"),
                     numBtn(label: "3"),
                     operatorBtn(label: "-"),
+                    //Row 5
                     numBtn(label: "0"),
                     numBtn(label: "."),
                     numBtn(label: "00"),
